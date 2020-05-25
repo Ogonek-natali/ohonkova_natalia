@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="216.0" prefWidth="468.0" style="-fx-background-color: #FFFAFA;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.khpi.oop.Ohonkova16.Controllers.Clear">
+    <children>
+        <Label alignment="CENTER" layoutX="22.0" layoutY="14.0" prefHeight="141.0" prefWidth="421.0" text="Are you sure &#10;you want to clear all products?" textAlignment="CENTER" textFill="#8561f2">
+            <font>
+                <Font name="Agency FB" size="40.0" />
+            </font>
+        </Label>
+        <Button fx:id="okButton" layoutX="22.0" layoutY="164.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: #483dab;" text="YES" textAlignment="CENTER" textFill="LIGHTCYAN">
+            <font>
+                <Font name="Agency FB" size="22.0" />
+            </font>
+        </Button>
+      <Button fx:id="noButton" layoutX="348.0" layoutY="164.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: #483dab;" text="NO" textAlignment="CENTER" textFill="LIGHTCYAN">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

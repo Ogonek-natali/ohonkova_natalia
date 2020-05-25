@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="620.0" prefWidth="1072.0" style="-fx-background-color: #B0E0E6;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.khpi.oop.Ohonkova16.Controllers.Show">
+   <children>
+      <TableView fx:id="tableViewId" editable="true" layoutX="14.0" layoutY="14.0" prefHeight="488.0" prefWidth="858.0">
+        <columns>
+            <TableColumn fx:id="idProduct" prefWidth="76.0" text="ID" />
+            <TableColumn fx:id="nameId" prefWidth="127.0" text="Name" />
+            <TableColumn fx:id="unitId" prefWidth="86.99998474121094" text="Unit" />
+            <TableColumn fx:id="countId" prefWidth="107.39999389648438" text="Count" />
+            <TableColumn fx:id="unit_priceId" prefWidth="99.199951171875" text="UnitPrice" />
+            <TableColumn fx:id="data_of_receiptId" prefWidth="151.20001220703125" text="DataOfReceipt" />
+            <TableColumn fx:id="attributeId" prefWidth="103.0" text="Attribute" />
+            <TableColumn fx:id="valueId" prefWidth="108.0" text="Value" />
+        </columns>
+      </TableView>
+      <ImageView fx:id="refresh" fitHeight="66.0" fitWidth="105.0" layoutX="678.0" layoutY="532.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assist/b3.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="deleteId" layoutX="926.0" layoutY="528.0" mnemonicParsing="false" style="-fx-background-color: #E0FFFF;" text="DELETE">
+         <font>
+            <Font name="Agency FB" size="34.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.3137255012989044" blue="1.0" opacity="0.7215686440467834" />
+                     </color></Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.48235294222831726" green="0.40784314274787903" blue="0.9333333373069763" />
+                     </color></Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <ImageView fx:id="back" fitHeight="58.0" fitWidth="58.0" layoutX="825.0" layoutY="532.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assist/b4.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="idField" layoutX="916.0" layoutY="30.0" prefHeight="25.0" prefWidth="126.0" />
+      <Label layoutX="891.0" layoutY="29.0" text="ID:">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="searchButton" layoutX="940.0" layoutY="65.0" mnemonicParsing="false" style="-fx-background-color: #E0FFFF;" text="Search" textFill="MEDIUMSLATEBLUE">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

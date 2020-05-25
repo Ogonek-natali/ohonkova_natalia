@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="550.0" prefWidth="900.0" style="-fx-background-color: #B0E0E6;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.khpi.oop.Ohonkova16.Controllers.generateProducts">
+    <children>
+        <MenuBar prefHeight="32.0" prefWidth="900.0">
+            <menus>
+                <Menu fx:id="fileMenu" mnemonicParsing="false" text="File">
+                    <items>
+                  <MenuItem fx:id="backMenuItem" mnemonicParsing="false" text="Back" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem fx:id="exitMenuItem" mnemonicParsing="false" text="Exit" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem fx:id="clearMenuItem" mnemonicParsing="false" text="Clear" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+      <Label layoutX="354.0" layoutY="46.0" text="ENTER THE DATA:">
+         <font>
+            <Font name="Agency FB" size="37.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="backImage" fitHeight="48.0" fitWidth="48.0" layoutX="27.0" layoutY="479.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assist/backbutton_104978.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nameField" layoutX="208.0" layoutY="107.0" prefHeight="31.0" prefWidth="484.0" promptText="Name Product" />
+      <TextField fx:id="unitField" layoutX="208.0" layoutY="149.0" prefHeight="31.0" prefWidth="484.0" promptText="Unit" />
+      <TextField fx:id="countField" layoutX="208.0" layoutY="191.0" prefHeight="31.0" prefWidth="484.0" promptText="Count" />
+      <TextField fx:id="unit_priceField" layoutX="208.0" layoutY="232.0" prefHeight="31.0" prefWidth="484.0" promptText="Unit price" />
+        <TextField fx:id="data_of_receiptField1" layoutX="208.0" layoutY="275.0" prefHeight="31.0" prefWidth="484.0" promptText="Date of receipt" />
+        <TextField fx:id="attributeField2" layoutX="208.0" layoutY="319.0" prefHeight="31.0" prefWidth="484.0" promptText="Attribute" />
+        <TextField fx:id="valueField21" layoutX="208.0" layoutY="365.0" prefHeight="31.0" prefWidth="484.0" promptText="Value" />
+      <Button fx:id="saveButton" layoutX="733.0" layoutY="466.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="116.0" style="-fx-background-color: #7B68EE;" text="Save" textFill="#feffed">
+         <font>
+            <Font name="Agency FB" size="26.0" />
+         </font>
+      </Button>
+
+    </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="216.0" prefWidth="468.0" style="-fx-background-color: #E0FFFF;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.khpi.oop.Ohonkova16.Controllers.AboutMenu">
+   <children>
+      <Label alignment="CENTER" layoutX="22.0" layoutY="14.0" prefHeight="141.0" prefWidth="421.0" text="This project was developed by the student&#10;NTU &quot;Kharkiv Polytechni Institute&quot;&#10;Ohonkova Natalia, KIT-118b&#10;&quot;Store&quot;" textAlignment="CENTER" textFill="#8561f2">
+         <font>
+            <Font name="Agency FB" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="okButton" layoutX="185.0" layoutY="156.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: #B0E0E6;" text="OK" textAlignment="CENTER" textFill="MEDIUMSLATEBLUE">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

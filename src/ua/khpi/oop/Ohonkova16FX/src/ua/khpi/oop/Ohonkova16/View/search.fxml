@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="292.0" prefWidth="600.0" style="-fx-background-color: #B0E0E6;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.khpi.oop.Ohonkova16.Controllers.Search">
+   <children>
+      <Label layoutX="64.0" layoutY="14.0" text="ID:">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="43.0" text="Name:">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="72.0" text="Unit:">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="101.0" text="Count:">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="132.0" prefHeight="30.0" prefWidth="115.0" text="Unit price:">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="161.0" prefHeight="30.0" prefWidth="189.0" text="Data of receipt:">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="190.0" prefHeight="30.0" prefWidth="107.0" text="Attribute:">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="219.0" text="Value:">
+         <font>
+            <Font name="Agency FB" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="id" layoutX="100.0" layoutY="14.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="name" layoutX="115.0" layoutY="43.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="unit" layoutX="115.0" layoutY="72.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="count" layoutX="120.0" layoutY="101.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="unit_price" layoutX="150.0" layoutY="132.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="data_of_receipt" layoutX="185.0" layoutY="161.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="attribute" layoutX="140.0" layoutY="190.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="value" layoutX="130.0" layoutY="219.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="error" layoutX="324.0" layoutY="124.0" textFill="RED">
+         <font>
+            <Font name="Impact" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="okButton" layoutX="479.0" layoutY="234.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="107.0" style="-fx-background-color: #7B68EE;" text="OK" textFill="LIGHTCYAN">
+         <font>
+            <Font name="Agency FB" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
